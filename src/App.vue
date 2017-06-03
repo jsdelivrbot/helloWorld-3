@@ -6,18 +6,18 @@
     <input v-model='message'>
     <p v-if='seen'> Now you see me</p>
     <button @click='toggleSeen'> Click Me!</button>
-    <todo-list></todo-list>
+    <todoList></todoList>
+    <counter></counter>
   </div>
 </template>
 
 <script>
 import todoList from './components/TodoList'
+import counter from './components/counter'
 
 export default {
   name: 'app',
-  components: {
-    'todo-list': todoList
-  },
+  components: { todoList, counter },
   data: () => ({
     message: 'Hello Vue!',
     seen: true
