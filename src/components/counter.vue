@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div class='counter'>
+    <h3> Counter </h3>
     <p>total: {{ total }}</p>
     <button-counter v-on:increment='incrementTotal'></button-counter>
     <button-counter v-on:increment='incrementTotal'></button-counter>
