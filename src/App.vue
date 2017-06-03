@@ -5,35 +5,22 @@
     {{ message }}
     <input v-model='message'>
     <p v-if='seen'> Now you see me</p>
-    <button v-on:click='toggleSeen'> Click Me!</button>
-    <ol>
-      <todo-item
-        v-for='item in groceryList'
-        v-bind:todo='item'
-        v-bind:key='item.id'>
-      </todo-item>
-    </ol>
+    <button @click='toggleSeen'> Click Me!</button>
+    <todo-list></todo-list>
   </div>
 </template>
 
 <script>
-import Vue from 'vue'
-
-Vue.component('todo-item', {
-  props: ['todo'],
-  template: '<li>{{ todo.text }}</li>'
-})
+import todoList from './components/TodoList'
 
 export default {
   name: 'app',
+  components: {
+    'todo-list': todoList
+  },
   data: () => ({
     message: 'Hello Vue!',
-    seen: true,
-    groceryList: [
-      { id: 0, text: 'Vegetables' },
-      { id: 1, text: 'Cheese' },
-      { id: 2, text: 'Whatever else humans are supposed to eat' }
-    ]
+    seen: true
   }),
   methods: {
     toggleSeen: function () { this.seen = !this.seen }
