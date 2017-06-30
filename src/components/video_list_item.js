@@ -1,8 +1,7 @@
 import React from 'react';
 
-export default ({ video }) => {
+const VideoListItem = ({ video }) => {
   const imageUrl = video.snippet.thumbnails.default.url;
-
 
   return (
     <li className='list-group-item'>
@@ -18,3 +17,5 @@ export default ({ video }) => {
     </li>
   );
 };
+
+export default VideoListItem;
