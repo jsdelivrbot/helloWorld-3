@@ -6,6 +6,9 @@
   "repository": "https://github.com/ndshal/react-vids",
   "author": "Nikita Shalimov <ndshalimov@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
+  },
   "dependencies": {
     "lodash": "^4.17.4",
     "react": "^15.6.1",
