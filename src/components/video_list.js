@@ -6,7 +6,7 @@ const VideoList = ({ videos, onVideoSelect }) => {
     <VideoListItem
       key={video.etag}
       video={video}
-      onVideoSelect={() => onVideoSelect(video)}/>
+      selectVideo={() => onVideoSelect(video)} />
   ));
 
   return (
