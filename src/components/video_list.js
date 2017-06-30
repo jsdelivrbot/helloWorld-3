@@ -1,9 +1,9 @@
 import React from 'react';
 
-const VideoList = props => {
+const VideoList = ({ videos }) => {
   return (
     <ul className='col-md-4 list-group'>
-
+      {videos.length}
     </ul>
   );
 };
