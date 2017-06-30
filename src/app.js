@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import YTSearch from 'youtube-api-search';
-import { API_KEY } from './api_key';
 import _ from 'lodash';
 
 import SearchBar from './components/search_bar';
