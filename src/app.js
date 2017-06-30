@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import YTSearch from 'youtube-api-search';
-import SearchBar from './search_bar';
 import { API_KEY } from './api_key';
+import SearchBar from './components/search_bar';
+import VideoList from './components/video_list'
 
 class App extends Component {
   constructor(props) {
