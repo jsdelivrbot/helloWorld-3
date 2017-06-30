@@ -10,7 +10,7 @@ const VideoList = ({ videos, onVideoSelect }) => {
   ));
 
   return (
-    <ul className='col-md-4 list-group'>
+    <ul className='video-list col-md-4 list-group'>
       {videoItems}
     </ul>
   );

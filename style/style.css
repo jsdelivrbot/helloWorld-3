@@ -7,6 +7,10 @@
   width: 75%;
 }
 
+.video-list {
+  margin-top: 10px;
+}
+
 .video-item img {
   max-width: 64px;
 }
