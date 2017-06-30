@@ -1,7 +1,7 @@
 {
   "name": "react-vids",
   "version": "1.0.0",
-  "description": "A React / Redux wrapper for the Youtube API",
+  "description": "A React wrapper for the Youtube API",
   "main": "index.js",
   "repository": "https://github.com/ndshal/react-vids",
   "author": "Nikita Shalimov <ndshalimov@gmail.com>",
@@ -13,9 +13,6 @@
     "lodash": "^4.17.4",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-redux": "^5.0.5",
-    "react-router": "^4.1.1",
-    "redux": "^3.7.1",
     "youtube-api-search": "^0.0.5"
   },
   "devDependencies": {

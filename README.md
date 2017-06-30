@@ -1,2 +1,2 @@
 # react-vids
-A React / Redux wrapper for the Youtube API
+A React wrapper for the Youtube API
