@@ -8,9 +8,10 @@ class App extends Component {
     super(props);
     this.state = { videos: [] };
 
-    YTSearch({ key: API_KEY, term: 'surfboards' }, videos => (
-      this.setState({ videos })
-    ));
+    YTSearch(
+      { key: API_KEY, term: 'surfboards' },
+      videos => this.setState({ videos })
+    );
   }
 
   render() {
