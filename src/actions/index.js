@@ -1,6 +1,6 @@
-export const SELECT_BOOK = 'SELECT_BOOK';
+export const BOOK_SELECTED = 'BOOK_SELECTED';
 
 export const selectBook = book => ({
-  type: SELECT_BOOK,
+  type: BOOK_SELECTED,
   book
 });
