@@ -1,7 +1,7 @@
 {
   "name": "weather-forecast",
   "version": "1.0.0",
-  "description": "A simple weather forcast React / Redux app",
+  "description": "A simple weather forecast React / Redux app",
   "main": "index.js",
   "repository": "https://github.com/ndshal/weather-forecast",
   "author": "Nikita Shalimov <ndshalimov@gmail.com>",
