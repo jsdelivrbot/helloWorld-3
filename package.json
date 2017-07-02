@@ -1,0 +1,10 @@
+{
+  "name": "helloNode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Nikita Shalimov <ndshalimov@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
