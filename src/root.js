@@ -1,7 +1,8 @@
 import React from 'react';
+import App from './components/app';
 
 const Root = () => (
-  <div> Hello from react! </div>
+  <App />
 );
 
 export default Root;
